@@ -58,9 +58,11 @@
 .box7{
     padding: 5px 30px 5px 120px;
 }
-.box9{
-    width: 32px;
-    display: none;
+.box9 img{
+    
+    height: 20px;
+        width: 20px;
+        display: none;
 }
 .under{
     color: antiquewhite;
@@ -79,40 +81,60 @@
     .box7{
         display: none;
     }
-    .box9{
+    .box9 img{
         display:block;
         padding: 5px 10px 5px 320px;
+        height: 20px;
+        width: 20px;
     }
     .under{
         text-underline-position: black;
     }
 }
 .Container1{
+    align-items: center;
+    text-align: start;
     display: flex;
-    height: 520px;
-    width:1120px ;
+    height: 460px;
+    width:1300px ;
     margin: 10px;
-    padding: 20px;
+    padding: 10px;
     
 }
-.box11 img{
-    height: 450px;
-    width:320px ;
-    padding: 0px 5px 10px 130px;
-}
 .box10{
-    height: 350px;
-    width:750px ;
+    
+    height: 250px;
+    width:60vw ;
     align-items: center;
-    padding: 90px 95px 20px 70px;
-    font-size: 120% ;
+    padding:5px 15px 1px 35px;
+    
+    font-size: 130% ;
 }
+.color{
+    
+    margin: 0%;
+    padding: 0%;
+    color: rgb(255, 136, 1);}
+ .color2{
+        
+        margin: 0%;
+        padding: 0%;
+        color: rgb(2, 150, 248);
+}
+.box11 img{
+    
+    align-items: end;
+    height: 450px;
+    width:30vw ;
+    padding:5px 75px 5px 30px;
+}
+
 .btn2{
     background-color: rgb(2, 1, 1);
     color: aliceblue;
     border-radius: 7px;
     height: 30px;
-    width: 100px;
+    width: 150px;
     text-align: center;
     text-decoration: none;
     justify-content: center;
