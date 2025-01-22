@@ -207,3 +207,29 @@
 .Box14 p7{
     color: #04e5f5;
 }
+.Container5{
+    align-items: center;
+    display: flex;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+}
+.box15{
+    
+    background-color:rgb(253, 174, 2);
+    border-radius: 45px;
+    height: 45px;
+    width: 45px;
+    padding: 5px 5px 5px 10px;
+    transform: translateX(-10%);
+}
+.box16{
+    
+    background-color:rgb(253, 174, 2);
+    border-radius: 45px;
+    height: 45px;
+    width: 45px;
+    padding: 5px 10px 5px 5px;
+    transform: translateX(+10%);
+    
+}
