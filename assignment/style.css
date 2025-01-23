@@ -248,16 +248,22 @@
     width:92vw ;
     text-align: center;}
 
-.Container8{
-        border: 2px solid red;
-        background-color: #91dee4;
+.row{
+       
+        background-color: #e6e7a3;
         align-items: center;
-        display:grid;
-        height: 700px;
-        width:96vw ;
-        margin: 10px;
-        padding: 10px;
+        display:flex;
+        height: 800px;
+        width:100vw ;
+        padding: 5px;
         justify-content: center;}
+        
+.squre{
+     display: grid;
+    gap: 25px;
+     grid-template-columns: repeat(2, 1fr);
+     text-align: center;
+}
 .Box17{
     
     height: 620px;
@@ -266,6 +272,34 @@
     border: 2px #041cf5;
     border-radius: 10px;
     text-align: center;
+    transform: translateX(-8%)
+}
+.Box18{
+    background-color: aliceblue;
+    border-radius: 8px; 
+    height: 290px;
+    width: 291px;
+
+}
+.Box19{
+    background-color: aliceblue;
+    border-radius: 8px; 
+    height: 290px;
+    width: 291px;
+
+}
+.Box20{
+    background-color: aliceblue;
+    border-radius: 8px; 
+    height: 290px;
+    width: 291px;
+}
+.Box21{
+    background-color: aliceblue;
+    border-radius: 8px; 
+    height: 290px;
+    width: 291px;
+
 }
 .box30{
     height: 50px;
@@ -273,4 +307,74 @@
     background-color:rgb(81, 81, 207) ;
     border-radius: 14px;
     align-items:center;}
+
+.Container10{
+    display: flex;
+    background-color: #0e9af7;
+    height:250px ;
+    color: aliceblue;
+    padding: 40px 35px 70px 55px;
+    justify-content:space-between;
+}
+.box27{
+    width: 40vw;
+    height: 180px;
+    
+}
+.box28{
+    width: 20vw;
+    height: 180px;
+    transform: translateX(+5%)
+}
+.box29{
+    width: 25vw;
+    height: 180px;
+    transform: translateX(+10%)
+}
+.box35{
+    display: flex;
+}
+.box31{
+    height: 30px;
+    width:150px ;
+    background-color:rgb(0, 133, 82) ;
+    border-radius: 14px;
+    align-items:center;}
+
+.box32{
+        height: 30px;
+        width:150px ;
+        background-color:rgb(75, 75, 207) ;
+        border-radius: 14px;
+        align-items:center;}
+.box33{
+            height: 30px;
+            width:150px ;
+            background-color:rgb(180, 67, 67) ;
+            border-radius: 14px;
+            align-items:center;}  
+.box34{
+                height: 30px;
+                width:150px ;
+                background-color:rgb(230, 212, 58) ;
+                border-radius: 14px;
+                align-items:center;}      
+.box36{
    
+  
+    height: 30px;
+    width:150px ;
+    background-color: black;
+    text-align: center;
+    color: #fffcfc;
+    border-radius: 6px;
+    transform: translateX(+360%); 
+}
+.Box-new{
+    height: 100 px;
+    width: auto;
+    background-color: #e6e7a3;
+    text-align: center;
+    
+}
+
